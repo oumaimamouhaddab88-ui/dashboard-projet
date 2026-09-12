@@ -1,5 +1,5 @@
 export const API_BASE_URL =
-  "https://dashboard-projet-production.up.railway.app/login";
+  "https://dashboard-projet-production-03f3.up.railway.app/api";
 
 export const SERVER_BASE_URL =
   "https://dashboard-projet-production-03f3.up.railway.app";
