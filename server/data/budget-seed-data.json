@@ -1,0 +1,217 @@
+{
+  "items": [
+    {
+      "_id": "item-1",
+      "name": "Fourniture, fabrication et changement de la porte visite avec support",
+      "rubrique": "Équipement",
+      "fullDescription": "Fourniture, fabrication et changement de la porte visite avec support selon modèle existant",
+      "unit": "F",
+      "quantity": 2,
+      "unitCost": 65000,
+      "percentages": {
+        "att-1": 0.25,
+        "att-2": 0,
+        "att-3": 0,
+        "att-4": 0,
+        "att-5": 0.5,
+        "att-6": 0.25,
+        "att-7": 0.25,
+        "att-8": 0,
+        "att-9": 0,
+        "att-10": 0
+      },
+      "documents": [
+        {
+          "name": "Devis_Porte_Visite.pdf",
+          "url": "/documents/devis_porte.pdf",
+          "uploadedAt": "2025-03-15T10:30:00Z"
+        }
+      ]
+    },
+    {
+      "_id": "item-2",
+      "name": "Remplacement des tôles de fond du bac à l'unité 51",
+      "rubrique": "Tôlerie",
+      "fullDescription": "Remplacement des tôles de fond du bac à l'unité 51 (démontage, fourniture et montage)",
+      "unit": "F",
+      "quantity": 2,
+      "unitCost": 1750000,
+      "percentages": {
+        "att-1": 0.25,
+        "att-2": 0,
+        "att-3": 0.25,
+        "att-4": 0.3,
+        "att-5": 0.25,
+        "att-6": 0.2,
+        "att-7": 0.25,
+        "att-8": 0,
+        "att-9": 0,
+        "att-10": 0
+      },
+      "documents": [
+        {
+          "name": "Plan_Toles_Fond.dwg",
+          "url": "/documents/plan_toles.dwg",
+          "uploadedAt": "2025-03-20T14:15:00Z"
+        },
+        {
+          "name": "Attestation_Qualite.pdf",
+          "url": "/documents/attestation_qualite.pdf",
+          "uploadedAt": "2025-03-22T09:45:00Z"
+        }
+      ]
+    },
+    {
+      "_id": "item-3",
+      "name": "Remplacement des tôles marginales du bac à l'unité 51",
+      "rubrique": "Tôlerie",
+      "fullDescription": "Remplacement des tôles marginales du bac à l'unité 51 (démontage, fourniture et montage)",
+      "unit": "F",
+      "quantity": 2,
+      "unitCost": 500000,
+      "percentages": {
+        "att-1": 0,
+        "att-2": 0.25,
+        "att-3": 0.25,
+        "att-4": 0.25,
+        "att-5": 0.25,
+        "att-6": 0.25,
+        "att-7": 0.25,
+        "att-8": 0,
+        "att-9": 0,
+        "att-10": 0
+      },
+      "documents": []
+    },
+    {
+      "_id": "item-4",
+      "name": "Reconstitution du lit de sable compacté du bac",
+      "rubrique": "Préparation",
+      "fullDescription": "Reconstitution du lit de sable compacté du bac à l'unité 51 (dégagement, fourniture et reconstitution)",
+      "unit": "F",
+      "quantity": 2,
+      "unitCost": 650000,
+      "percentages": {
+        "att-1": 0,
+        "att-2": 0.25,
+        "att-3": 0.75,
+        "att-4": 0,
+        "att-5": 0.25,
+        "att-6": 0,
+        "att-7": 0.25,
+        "att-8": 0,
+        "att-9": 0,
+        "att-10": 0
+      },
+      "documents": []
+    },
+    {
+      "_id": "item-5",
+      "name": "Changement du toit du bac à l'unité 51",
+      "rubrique": "Toiture",
+      "fullDescription": "Changement du toit du bac à l'unité 51 y compris les tubulures, renforts et chevrons et chapeau chinois (démontage, fourniture et montage)",
+      "unit": "F",
+      "quantity": 2,
+      "unitCost": 5000000,
+      "percentages": {
+        "att-1": 0.25,
+        "att-2": 0,
+        "att-3": 0,
+        "att-4": 0.15,
+        "att-5": 0.25,
+        "att-6": 0.35,
+        "att-7": 0.2,
+        "att-8": 0,
+        "att-9": 0,
+        "att-10": 0
+      },
+      "documents": [
+        {
+          "name": "Devis_Charpente.pdf",
+          "url": "/documents/devis_charpente.pdf",
+          "uploadedAt": "2025-04-01T11:20:00Z"
+        }
+      ]
+    }
+  ],
+  "attachments": [
+    {
+      "id": "att-1",
+      "name": "Attachement 1",
+      "date": "2025-04-21",
+      "bacType": "BAC10",
+      "status": "planned"
+    },
+    {
+      "id": "att-2",
+      "name": "Attachement 2",
+      "date": "2025-06-30",
+      "bacType": "BAC10",
+      "status": "planned"
+    },
+    {
+      "id": "att-3",
+      "name": "Attachement 3",
+      "date": "2025-09-25",
+      "bacType": "BAC10",
+      "status": "planned"
+    },
+    {
+      "id": "att-4",
+      "name": "Attachement 4",
+      "date": "2025-11-11",
+      "bacType": "BAC3",
+      "status": "planned"
+    },
+    {
+      "id": "att-5",
+      "name": "Attachement 5",
+      "date": "2026-01-16",
+      "bacType": "BAC3",
+      "status": "planned"
+    },
+    {
+      "id": "att-6",
+      "name": "Attachement 6",
+      "date": "2026-04-23",
+      "bacType": "BAC3",
+      "status": "planned"
+    },
+    {
+      "id": "att-7",
+      "name": "Attachement 7",
+      "date": "2026-06-12",
+      "bacType": "BAC10",
+      "status": "planned"
+    },
+    {
+      "id": "att-8",
+      "name": "Attachement 8",
+      "date": "2026-08-30",
+      "bacType": "BAC10",
+      "status": "planned"
+    },
+    {
+      "id": "att-9",
+      "name": "Attachement 9",
+      "date": "2026-10-15",
+      "bacType": "BAC10",
+      "status": "planned"
+    },
+    {
+      "id": "att-10",
+      "name": "Attachement 10",
+      "date": "2026-12-20",
+      "bacType": "BAC10",
+      "status": "planned"
+    }
+  ],
+  "summary": {
+    "totalItems": 5,
+    "totalAttachments": 10,
+    "budgetHT": 8395000,
+    "totalTVA": 1679000,
+    "budgetTTC": 10074000,
+    "currency": "MAD"
+  }
+}

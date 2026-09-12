@@ -1,0 +1,333 @@
+{
+  "dates": [
+    "2025-04-21",
+    "2025-06-30",
+    "2025-09-25",
+    "2025-11-11",
+    "2026-01-16",
+    "2026-04-23",
+    "2026-06-12"
+  ],
+  "postes": [
+    {
+      "numero": 1,
+      "designation": "Fourniture, fabrication et changement de la porte visite avec support selon model existant",
+      "unite": "F",
+      "quantite": 2,
+      "prixUnitaire": 65000,
+      "pourcentages": [
+        0.25,
+        0,
+        0,
+        0,
+        0.5,
+        0.25,
+        0.25
+      ]
+    },
+    {
+      "numero": 2,
+      "designation": "Remplacement des tôles de fond du bac à l’unité 51. (démontage, fourniture et montage)",
+      "unite": "F",
+      "quantite": 2,
+      "prixUnitaire": 1750000,
+      "pourcentages": [
+        0.25,
+        0,
+        0.25,
+        0.3,
+        0.25,
+        0.2,
+        0.25
+      ]
+    },
+    {
+      "numero": 3,
+      "designation": "Remplacement des tôles marginales du bac à l’unité 51. (démontage, fourniture et montage)",
+      "unite": "F",
+      "quantite": 2,
+      "prixUnitaire": 500000,
+      "pourcentages": [
+        0,
+        0.25,
+        0.25,
+        0.25,
+        0.25,
+        0.25,
+        0.25
+      ]
+    },
+    {
+      "numero": 4,
+      "designation": "Reconstitution du lit de sable compacté du bac à l’unité 51. (dégagement, fourniture et reconstitution)",
+      "unite": "F",
+      "quantite": 2,
+      "prixUnitaire": 650000,
+      "pourcentages": [
+        0,
+        0.25,
+        0.75,
+        0,
+        0.25,
+        0,
+        0.25
+      ]
+    },
+    {
+      "numero": 5,
+      "designation": "Reconstitution de la couche de sable bitumineux du bac à l’unité 51. (dégagement, fourniture et reconstitution)",
+      "unite": "F",
+      "quantite": 2,
+      "prixUnitaire": 300000,
+      "pourcentages": [
+        0,
+        0.25,
+        0.75,
+        0,
+        0.25,
+        0,
+        0.25
+      ]
+    },
+    {
+      "numero": 6,
+      "designation": "Remplacement des piquages de vidange avec doublure de renfort du bac à l’unité 51. (démontage, fourniture et montage) : (F= piquage de vidange +piquage de soutirage du bac)",
+      "unite": "F",
+      "quantite": 2,
+      "prixUnitaire": 80000,
+      "pourcentages": [
+        0,
+        0.25,
+        0,
+        0,
+        0.25,
+        0.5,
+        0.25
+      ]
+    },
+    {
+      "numero": 7,
+      "designation": "Remplacement du bas de la 1ère virole du bac à l’unité 51 sur une hauteur de 1,5 (démontage, fourniture et montage)",
+      "unite": "F",
+      "quantite": 2,
+      "prixUnitaire": 1500000,
+      "pourcentages": [
+        0,
+        0.25,
+        0.25,
+        0.3,
+        0.25,
+        0,
+        0
+      ]
+    },
+    {
+      "numero": 8,
+      "designation": "Remplacement des tôles de la 2éme virole du bac à l’unité 51  (démontage, fourniture et montage)",
+      "unite": "M²",
+      "quantite": 60,
+      "prixUnitaire": 8000,
+      "pourcentages": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "numero": 9,
+      "designation": "Remplacement des tôles de la 3éme virole du bac à l’unité 51  (démontage, fourniture et montage)",
+      "unite": "M²",
+      "quantite": 60,
+      "prixUnitaire": 8000,
+      "pourcentages": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "numero": 10,
+      "designation": "Remplacement des tôles de la 4éme virole du bac à l’unité 51  (démontage, fourniture et montage)",
+      "unite": "M²",
+      "quantite": 100,
+      "prixUnitaire": 7500,
+      "pourcentages": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "numero": 11,
+      "designation": "Remplacement de la totalité de la tôle de la 5ème virole sans doublure et avec doublure sur laquelle sont soudés les piquages des trop pleins du bac à l’unité 51 (démontage, fourniture et montage) : (F= tôles de la 5ème virole concernées y compris les deux piquages du trop-plein)",
+      "unite": "F",
+      "quantite": 2,
+      "prixUnitaire": 1150000,
+      "pourcentages": [
+        0,
+        0.25,
+        0,
+        0.25,
+        0,
+        0.5,
+        0
+      ]
+    },
+    {
+      "numero": 12,
+      "designation": "Changement du toit du bac à l’unité 51 y compris les tubulures, renforts et chevrons et chapeau chinois (démontage, fourniture et montage)",
+      "unite": "F",
+      "quantite": 2,
+      "prixUnitaire": 5000000,
+      "pourcentages": [
+        0.25,
+        0,
+        0,
+        0.15,
+        0.25,
+        0.35,
+        0.2
+      ]
+    },
+    {
+      "numero": 13,
+      "designation": "Fourniture et changement des collecteurs d’alimentation en vapeur ; retour condensat et circuit d’étouffement du bac à l’unité 51 (démontage, fourniture et montage)",
+      "unite": "F",
+      "quantite": 2,
+      "prixUnitaire": 150000,
+      "pourcentages": [
+        0,
+        0.25,
+        0,
+        0,
+        0,
+        0.25,
+        1
+      ]
+    },
+    {
+      "numero": 14,
+      "designation": "Assemblage, soudure et montage des réchauffeurs (démontage, fourniture (sauf réchauffeur) du bac à l’unité 51. (montage de 27 réchauffeurs avec vannes et purgeurs (fourniture des vannes et purgeurs à la charge d’entreprise)",
+      "unite": "F",
+      "quantite": 2,
+      "prixUnitaire": 300000,
+      "pourcentages": [
+        0.25,
+        0,
+        0,
+        0,
+        0.25,
+        0,
+        1
+      ]
+    },
+    {
+      "numero": 15,
+      "designation": "Remplacement l’ensemble des passerelles du bac de l’unité 51 (démontage, fourniture et montage) .",
+      "unite": "F",
+      "quantite": 2,
+      "prixUnitaire": 500000,
+      "pourcentages": [
+        0.25,
+        0,
+        0,
+        0,
+        0,
+        0.35,
+        0.4
+      ]
+    },
+    {
+      "numero": 16,
+      "designation": "Fourniture et changement de conduite de production du bac de l’unité 51(démontage, fourniture et montage) .",
+      "unite": "F",
+      "quantite": 2,
+      "prixUnitaire": 60000,
+      "pourcentages": [
+        0.25,
+        0,
+        0,
+        0,
+        0.25,
+        0,
+        0.5
+      ]
+    },
+    {
+      "numero": 17,
+      "designation": "Fourniture et changement de conduite de recyclage du bac de l’unité 51(démontage, fourniture et montage) .",
+      "unite": "F",
+      "quantite": 2,
+      "prixUnitaire": 120000,
+      "pourcentages": [
+        0.25,
+        0,
+        0,
+        0,
+        0.25,
+        0,
+        0.5
+      ]
+    },
+    {
+      "numero": 18,
+      "designation": "Fourniture et changement des conduites de trop plein du bac de l’unité 51(démontage, fourniture et montage) .",
+      "unite": "F",
+      "quantite": 4,
+      "prixUnitaire": 166000,
+      "pourcentages": [
+        0,
+        0.25,
+        0,
+        0,
+        0,
+        0,
+        1.75
+      ]
+    },
+    {
+      "numero": 19,
+      "designation": "Sablage et peinture des bacs par un complexe THT au niveau des zones d’intervention du bac à l’unité 51.",
+      "unite": "F",
+      "quantite": 2,
+      "prixUnitaire": 500000,
+      "pourcentages": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0.5
+      ]
+    },
+    {
+      "numero": 20,
+      "designation": "Calorifugeage des zones d’interventions du bac et conduites à l’unité 51.",
+      "unite": "F",
+      "quantite": 2,
+      "prixUnitaire": 650000,
+      "pourcentages": [
+        0,
+        0.25,
+        0,
+        0,
+        0.25,
+        0,
+        0.25
+      ]
+    }
+  ]
+}

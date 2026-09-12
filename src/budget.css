@@ -1,0 +1,226 @@
+/* budget.css
+   Additions minimales pour le module Budget. Tout le reste (cartes, badges, tables,
+   modales, progress bars, boutons) réutilise tel quel les classes de dashboard.css —
+   aucune nouvelle palette de couleurs, aucun nouveau composant visuel introduit. */
+
+.poste-drawer-card {
+  max-width: 900px;
+}
+
+@media (max-width: 768px) {
+  .poste-drawer-card {
+    max-width: 100%;
+  }
+}
+
+/* Bouton "Détails" — style plein, vert OCP, moderne et interactif.
+   Cible aussi bien <button> que <a> (les <Link> de react-router-dom rendent des <a>),
+   sinon les liens s'affichent en texte bleu souligné brut du navigateur. */
+.budget-details-btn {
+  display: inline-flex !important;
+  align-items: center;
+  gap: 6px;
+  padding: 8px 18px !important;
+  border-radius: 999px !important;
+  border: none !important;
+  background: linear-gradient(135deg, var(--ocp-green) 0%, var(--ocp-green-dark) 100%) !important;
+  color: #ffffff !important;
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 0.2px;
+  cursor: pointer;
+  white-space: nowrap;
+  text-decoration: none !important;
+  box-shadow: 0 2px 6px rgba(0, 149, 74, 0.25) !important;
+  transform: translateY(0);
+  transition: transform 0.15s ease, box-shadow 0.15s ease, filter 0.15s ease;
+}
+
+.budget-details-btn:visited {
+  color: #ffffff !important;
+}
+
+.budget-details-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 14px rgba(0, 149, 74, 0.35) !important;
+  filter: brightness(1.05);
+  color: #ffffff !important;
+}
+
+.budget-details-btn:active {
+  transform: translateY(0);
+  box-shadow: 0 2px 4px rgba(0, 149, 74, 0.3) !important;
+  filter: brightness(0.97);
+}
+
+.budget-details-btn:focus {
+  outline: none;
+}
+
+.budget-details-btn:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+  transform: none !important;
+}
+
+.budget-details-btn svg {
+  font-size: 14px;
+  transition: transform 0.15s ease;
+}
+
+.budget-details-btn:hover svg {
+  transform: scale(1.1);
+}
+
+/* Rangée de chips listant les Attachements existants du Bac sélectionné */
+.attachement-chip-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.attachement-chip {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 2px;
+  padding: 8px 14px;
+  border-radius: var(--radius-field);
+  border: 1px solid var(--border-color);
+  background-color: #ffffff;
+  color: var(--text-dark);
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: var(--transition-fast);
+}
+
+.attachement-chip:hover {
+  border-color: var(--ocp-green);
+  color: var(--ocp-green-dark);
+  transform: translateY(-1px);
+}
+
+.attachement-chip-date {
+  font-size: 11px;
+  font-weight: 500;
+  color: var(--text-muted);
+}
+
+/* Tableau du formulaire "Nouvel Attachement" : toutes les lignes (postes) défilent en
+   hauteur puisqu'il peut y en avoir ~20 */
+.attachement-batch-table-wrapper {
+  max-height: 360px;
+  overflow-y: auto;
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-field);
+}
+
+.attachement-batch-pct-input {
+  width: 70px !important;
+}
+
+.attachement-batch-actions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.attachement-batch-actions-right {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.attachement-batch-checkbox {
+  width: 18px;
+  height: 18px;
+  cursor: pointer;
+  accent-color: var(--ocp-green);
+}
+
+/* Section "Attachements" sur la page Budget — même carte/tableau que la section Postes,
+   avec un en-tête titre + bouton comme les autres dashboard-card */
+.budget-attachements-card {
+  margin-top: 20px;
+}
+
+.budget-section-header {
+  padding: 20px 24px 0;
+}
+
+.budget-section-header h2 {
+  font-size: 17px;
+  font-weight: 700;
+  color: var(--text-dark);
+}
+
+/* Page détail d'un Attachement */
+.attachement-meta-card .modal-form-row {
+  gap: 24px;
+}
+
+.attachement-meta-card label {
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--text-dark);
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.attachement-meta-card input {
+  padding: 12px 14px;
+  font-size: 14px;
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-field);
+  outline: none;
+  background-color: #fafbfc;
+  color: var(--text-dark);
+  transition: var(--transition-fast);
+}
+
+.attachement-meta-card input:focus {
+  border-color: var(--ocp-green);
+  background-color: #ffffff;
+  box-shadow: 0 0 0 4px var(--ocp-green-light);
+}
+
+/* Bandeau du montant total réalisé — grand, centré, coloré, se met à jour en direct
+   dès qu'une case "réalisé" est cochée/décochée */
+.attachement-total-banner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 4px;
+  padding: 24px;
+  margin-bottom: 20px;
+  border-radius: var(--radius-card);
+  background: linear-gradient(135deg, var(--ocp-green) 0%, var(--ocp-green-dark) 100%);
+  box-shadow: 0 4px 14px rgba(0, 149, 74, 0.25);
+}
+
+.attachement-total-banner-label {
+  font-size: 13px;
+  font-weight: 600;
+  color: rgba(255, 255, 255, 0.85);
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.attachement-total-banner-value {
+  font-size: 34px;
+  font-weight: 700;
+  color: #ffffff;
+  transition: transform 0.15s ease;
+}
+
+.attachement-total-banner-sub {
+  font-size: 13px;
+  color: rgba(255, 255, 255, 0.9);
+}
