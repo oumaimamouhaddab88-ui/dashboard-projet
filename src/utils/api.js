@@ -1,8 +1,8 @@
 export const API_BASE_URL =
-  "https://dashboard-projet-ocp-production.up.railway.app/api";
+  "https://dashboard-projet-production.up.railway.app/login";
 
 export const SERVER_BASE_URL =
-  "https://dashboard-projet-ocp-production.up.railway.app";
+  "https://dashboard-projet-production-03f3.up.railway.app";
 
 export const getToken = () => localStorage.getItem("token");
 
